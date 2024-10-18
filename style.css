@@ -1,0 +1,30 @@
+body {
+  background-color: burlywood;
+}
+.navbar {
+  height: 5rem;
+  background-color: #fdfdfd;
+  color: #333;
+  display: flex;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.navbar-section {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+}
+.navbar-links {
+  list-style: none;
+  display: flex;
+}
+.navbar-links li {
+  margin-right: 2rem;
+}
+.navbar-section .navbar-logo {
+  margin-right: 1.5rem;
+}
