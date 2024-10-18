@@ -1,8 +1,11 @@
+@import url("./iransans-fonts.css");
 body {
   background-color: burlywood;
+  font: IRANSansX;
+  font-size: 15px;
 }
 .navbar {
-  height: 5rem;
+  height: 5.5rem;
   background-color: #fdfdfd;
   color: #333;
   display: flex;
@@ -24,6 +27,7 @@ body {
 }
 .navbar-links li {
   margin-right: 2rem;
+  font-weight: 200;
 }
 .navbar-section .navbar-logo {
   margin-right: 1.5rem;
